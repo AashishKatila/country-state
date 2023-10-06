@@ -27,6 +27,7 @@ form{
 form select{
     width: 450px;
     padding: 15px;
+    text-indent: 30%;
     background-color: #fff;
     border-radius: 10px;
     border: none;

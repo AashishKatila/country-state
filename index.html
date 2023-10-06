@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <h2>Dependent Dropdown Demo</h2>
+        <h2>Dependent Dropdown: Country-State</h2>
         <form action="#">
-            <select name="" id="country">
+            <select name="country" id="country" class="country" onchange="loadStates()">
                 <option value=""> -- Select Country -- </option>
             </select>
-            <select name="" id="state">
+            <select name="state" id="state" class="state">
                 <option value=""> -- Select State -- </option>
             </select>
         </form>
